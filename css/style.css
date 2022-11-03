@@ -1,0 +1,50 @@
+/* fuente */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+   
+}
+
+.logo{
+    width:200px;
+}
+
+/* menu */
+#menu{
+    background-color:rgb(196, 196, 196) !important;
+}
+
+#menu a,button{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* noticias  */
+#noticias{
+    background-color:#000;
+}
+
+#noticias .titulo{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.buy{
+    margin-left: 35%;
+}
+
+/* servicios */
+.services{
+    width:120px;
+    height: 120px;
+
+}
+
+
