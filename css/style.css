@@ -260,3 +260,14 @@ footer p{
     text-align: center;
 }
 
+
+/* pagina samsug */
+#ofertastv .titulo {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#ofertastv {
+    background-color: #000 !important;
+}
