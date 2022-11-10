@@ -252,6 +252,11 @@ footer p{
     width: 100%;
 }
 
+/* página nosotros */
 
-
+#nosotros .titulo {
+    width: 100%;
+    color: rgb(11, 11, 11);
+    text-align: center;
+}
 
