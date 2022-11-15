@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -96,114 +95,67 @@
         </button>
     </div>
     <!-- novedades o noticias -->
-    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="noticias">
-        <h1 class="titulo">Noticias</h1>
-        <div class="col">
-            <div class="card">
-                <img src="/img/noticias-dj.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">DJ</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <a href="#" class="btn btn-primary buy">Comprar</a>
-                </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="contacto">
+        <h1 class="titulo">Contacto</h1>
+    <form class="row mx-auto g-4" action="mailto:aprendesoftware@poliandino.edu.co" method="post">
+        <div class="col-md-6">
+            <label for="inputNombre" class="form-label">Nombres</label>
+            <input type="text" class="form-control" id="inputNombre" placeholder="nombres" required>
+        </div>
+        <div class="col-md-6">
+            <label for="inputApellido" class="form-label">Apellidos</label>
+            <input type="text" class="form-control" id="inputApellido" required>
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="email@example.com" required>
+        </div>
+        <div class="col-md-6">
+            <label for="inputAsunto" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="inputAsunto">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress2" class="form-label">Dirección 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Departamento</label>
+            <select id="inputState" class="form-select">
+                <option selected>Seleccionar</option>
+                <option value="Antioquia">Antioquia</option>
+                <option value="Bolivar">Bolivar</option>
+                <option value="Risaralda">Risaralda</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Check me out
+                </label>
             </div>
         </div>
-
-        <div class="col">
-            <div class="card">
-                <img src="/img/noticas-celular-new.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Celular New</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <a href="#" class="btn btn-primary buy">Comprar</a>
-                </div>
-            </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-primary">Cancelar</button>
         </div>
-
-        <div class="col">
-            <div class="card">
-                <img src="/img/noticias-pc-new.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Computadora</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <a href="#" class="btn btn-primary buy">Comprar</a>
-                </div>
-            </div>
-        </div>
+    </form>
 
     </div>
 
-    <!-- servicios -->
-    <section class="w-100">
-        <div class="row w-75 mx-auto" id="servicios-fila-1">
-            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="/img/desarrollo.png" alt="Desarrollo" class="services">
-                <div>
-                    <h3 class="fs-5 mt-4 px-4 pb-1">Desarrollo</h3>
-                    <p class="px-4">
-                        Desarrollo web, apliciaciones moviles
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="/img/concepto.png" alt="Concepto Diseño" class="services">
-                <div>
-                    <h3 class="fs-5 mt-4 px-4 pb-1">Concepto Diseño</h3>
-                    <p class="px-4">
-                        Diseño, Implementación y concepto
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="/img/comunicaciones.png" alt="Concepto Diseño" class="services">
-                <div>
-                    <h3 class="fs-5 mt-4 px-4 pb-1">Concepto Diseño</h3>
-                    <p class="px-4">
-                        Diseño, Implementación y concepto
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="/img/comunicaciones.png" alt="Concepto Diseño" class="services">
-                <div>
-                    <h3 class="fs-5 mt-4 px-4 pb-1">Concepto Diseño</h3>
-                    <p class="px-4">
-                        Diseño, Implementación y concepto
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="/img/comunicaciones.png" alt="Concepto Diseño" class="services">
-                <div>
-                    <h3 class="fs-5 mt-4 px-4 pb-1">Concepto Diseño</h3>
-                    <p class="px-4">
-                        Diseño, Implementación y concepto
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12 d-flex justify-content-start my-5 icono-wrap">
-                <img src="/img/comunicaciones.png" alt="Concepto Diseño" class="services">
-                <div>
-                    <h3 class="fs-5 mt-4 px-4 pb-1">Concepto Diseño</h3>
-                    <p class="px-4">
-                        Diseño, Implementación y concepto
-                    </p>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
+    
 
     <!-- footer con metodologia BEM-->
     <footer id="page-footer">

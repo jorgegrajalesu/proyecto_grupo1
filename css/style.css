@@ -271,3 +271,14 @@ footer p{
 #ofertastv {
     background-color: #000 !important;
 }
+
+/* pag contacto */
+#contacto{
+    background-color: #fff;
+}
+
+#contacto .titulo {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
