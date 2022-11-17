@@ -30,5 +30,11 @@ document.write("la división es: " + division);//salida
 
 console.log(suma);//muestra los datos en la consola del devtool o ventana del programador
 
-var nombre1 = prompt("cuál es tu nombre");//dato de entrada
-document.write(nombre1);
+//var nombre1 = prompt("cuál es tu nombre");//dato de entrada
+//document.write(nombre1);
+
+//array o vector sirve para almacenar varias variables
+
+var comics=["batman","spiderman",1952,1945];
+//para mostrar una posicion del array comics
+document.write("<br>" + comics[0], comics[3]);
