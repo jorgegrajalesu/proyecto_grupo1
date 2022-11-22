@@ -282,3 +282,10 @@ footer p{
     color: rgb(0, 0, 0);
     text-align: center;
 }
+
+/* pag cotiza */
+#factura .titulo {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
