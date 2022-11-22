@@ -19,6 +19,6 @@ function calcular(){
         document.getElementById("valorProd").innerHTML = producto;
         document.getElementById("valorT").innerHTML = valorTotal;
         document.getElementById("valorI").innerHTML = valorIva;
-        document.getElementById("valorP").innerHTML = totalPagar;
+        document.getElementById("totalP").innerHTML = totalPagar;
     }
 }
