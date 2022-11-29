@@ -63,95 +63,40 @@
 
 
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="email" placeholder="Suscripción" aria-label="Suscripcion">
-                    <button class="btn btn-outline-dark" type="submit">Suscripción</button>
-                </form>
+              
+                 <a href="https://wa.me/3105188168" target="_blank" class="btn btn-outline-dark" type="submit">Comprar</a>
+             
             </div>
         </div>
     </nav>
-    <!-- slider -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-                <img src="img/slide1.jpg" class="d-block w-100" alt="T1">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/slide2.jpg" class="d-block w-100" alt="T2">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="img/slide3.jpg" class="d-block w-100" alt="T3">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+   
     <!-- novedades o noticias -->
     <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="contacto">
         <h1 class="titulo">Contacto</h1>
-    <form class="row mx-auto g-4" action="mailto:aprendesoftware@poliandino.edu.co" method="post">
-        <div class="col-md-6">
-            <label for="inputNombre" class="form-label">Nombres</label>
-            <input type="text" class="form-control" id="inputNombre" placeholder="nombres" required>
-        </div>
-        <div class="col-md-6">
-            <label for="inputApellido" class="form-label">Apellidos</label>
-            <input type="text" class="form-control" id="inputApellido" required>
-        </div>
-        <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="email@example.com" required>
-        </div>
-        <div class="col-md-6">
-            <label for="inputAsunto" class="form-label">Asunto</label>
-            <input type="text" class="form-control" id="inputAsunto">
-        </div>
-        <div class="col-12">
-            <label for="inputAddress" class="form-label">Dirección</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-            <label for="inputAddress2" class="form-label">Dirección 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6">
-            <label for="inputCity" class="form-label">Ciudad</label>
-            <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-            <label for="inputState" class="form-label">Departamento</label>
-            <select id="inputState" class="form-select">
-                <option selected>Seleccionar</option>
-                <option value="Antioquia">Antioquia</option>
-                <option value="Bolivar">Bolivar</option>
-                <option value="Risaralda">Risaralda</option>
-            </select>
-        </div>
-        <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
-        </div>
-        <div class="col-12">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                    Check me out
-                </label>
-            </div>
-        </div>
-        <div class="col-12">
-            <button type="submit" class="btn btn-primary">Enviar</button>
-            <button type="reset" class="btn btn-primary">Cancelar</button>
-        </div>
-    </form>
+            <form class="row mx-auto g-4" action="#" method="post" id="formcontact">
+                <div class="col-md-6">
+                    <label for="inputNombre" class="form-label">Nombres</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="nombres" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputApellido" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id="apellido" name="apellido" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="email@example.com" required>
+                </div>
+                <div class="col-md-12">
+                   <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                
+                
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-primary">Cancelar</button>
+                </div>
+            </form>
+            <a href="mailto:aprendesoftware@poliandino.edu.co" id="recepcion"></a>
 
     </div>
 
@@ -244,6 +189,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+        <!-- referenciar el js para enviar correos -->
+        <script src="js/enviocontacto.js"></script>
 </body>
 
 </html>
